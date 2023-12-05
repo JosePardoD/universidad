@@ -1,0 +1,14 @@
+.navbar {
+  position: sticky;
+  box-shadow: 2px 3px 7px rgba(99, 93, 33, 0.1);
+}
+
+.menu {
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu li:last-child {
+  margin-left: auto;
+}

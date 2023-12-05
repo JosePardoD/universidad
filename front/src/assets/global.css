@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+}
+
+body * {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  color: var(--main-color);
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+:root {
+  --main-color: #0c0c3a;
+  --enf-color: #0c0c3a;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: "Work Sans", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+}
+
+b {
+  font-size: inherit;
+}
+
+b,
+a {
+  color: var(--main-color);
+}
+
+p {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.container {
+  max-width: 80rem;
+  padding: 2rem;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+.card {
+  display: flex;
+
+  border-radius: var(--default-radius);
+
+  box-shadow: var(--default-shadow);
+
+  padding: 2rem;
+  gap: 1rem;
+}
